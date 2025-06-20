@@ -1,5 +1,5 @@
 # BruteForceAttack-FIX
-A basic bruteforce attack simuation, contains the weak code which has a weak login system and my task is to fix the login system. There will be two files one is a weak security code and the one i will update and improve the secuurity of the login system
+A basic bruteforce attack simuation, contains the weak code which has a weak login system and my task is to fix the login system. There will be multiple files among which  one is a weak security code and the other ones will be mine which  i will update and improve the security of the login system
 ## AT FIRST GLANCE THE PYTHON FILE may seem like working smoothly, but contains a delicate logical flow mistake which I have to find and update it  like a security engineer.
 # TARGETS:
 🔧 Patch ideas: (basic level )
