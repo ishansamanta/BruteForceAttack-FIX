@@ -54,5 +54,5 @@ login_system.login("ishan", "admin")
 login_system.login("ishan", "root")  # Locked now
 
 # should be blocked
-login_system.login("ishan", "secure@123")    #If u want to change the password change here and also use the encoder file to encode it and update the user_data.txt file with the encoded one
+login_system.login("ishan", "secure@123")    #If u want to change the password change here and also use the encoder file to encode it and update the user_encrypted.txt file with the encoded one
 
