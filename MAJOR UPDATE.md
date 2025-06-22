@@ -1,6 +1,6 @@
 # MAJOR UPDATE !!! ON Weak file :
 ## Security patch update:  
-### 1. Added encoder/ basic algorithm, for encrypting stored user data in user_data.txt file.. it stores the password
+### 1. Added encoder/ basic algorithm, for encrypting stored user data in user_encrypted.txt file.. it stores the password
 ### 2. Added a cooldown after 3 attempts to slow down fast brute force attack using time module  (time.sleep(2))// for i in range(10, 0 ,-1) This make 10 seconds cooldown more longer due to time.sleep(2)
 ### 3 Overall performance improved
 ### 4. Logical error fixed 
