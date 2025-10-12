@@ -1,4 +1,4 @@
-# BruteForceAttack-FIX by Ishan Samanta (ROBOTICS & AI)  // B.Tech// University Of Engineering and Management, Kolkata)SESSION : 2025-2029
+# BruteForceAttack-FIX by Ishan Samanta (CSE-IoT)  // B.Tech// University Of Engineering and Management, Kolkata)SESSION : 2025-2029
 A basic bruteforce attack simuation, contains the weak code which has a weak login system and my task is to fix the login system. There will be multiple files among which  one is a weak security code and the other ones will be mine which  i will update and improve the security of the login system
 ## AT FIRST GLANCE THE PYTHON FILE may seem like working smoothly, but contains a delicate mistake or kind of like a security breach which I have to find and update it  like a security engineer.
 # TARGETS:
