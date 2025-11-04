@@ -12,19 +12,19 @@ class SimpleLogin:
 
     def login(self, username, password):
         if self._locked:
-            print("🚫 Account is locked. Too many failed attempts.")
+            print(" Account is locked. Too many failed attempts.")
             return
 
         if username == self._username and password == self._password:
-            print("✅ Login successful! Welcome,", self._username)
+            print(" Login successful! Welcome,", self._username)
             self._failed_attempts = 0  # Reset after success
         else:
             self._failed_attempts += 1
-            print("❌ Incorrect username or password.")
+            print(" Incorrect username or password.")
 
             if self._failed_attempts >= 3:
                 self._locked = True
-                print("🚨 Too many failed attempts. Account locked!")
+                print(" Too many failed attempts. Account locked!")
 
 
 login_system = SimpleLogin("ishan", "secure@123")
