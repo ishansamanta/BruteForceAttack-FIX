@@ -21,26 +21,26 @@ class SimpleLogin:
             encoded_msg = "@347648^haj#hag^kol*ihardfhsecu785roamapple" + reversed_msg + "fire94347fiewr53325igreatfhefhifhefhf8helpf3r8hfnapplemohwicsi"
             return encoded_msg
 
-        print("🔐 Attempting to log in...")
+        print(" Attempting to log in...")
         with open("user_encrypted.txt", "r") as file:
             content = file.read().strip()
             encoded_password = secret_language(password)
             if username == self._username and encoded_password == content:
-                print("✅ Login successful! Welcome,", self._username)
+                print(" Login successful! Welcome,", self._username)
                 self._failed_attempts = 0  # Reset after success
             if self._locked:
-              print("🚫 You can try to log in again")
+              print(" You can try to log in again")
               return
 
    
             else:
               self._failed_attempts += 1
-              print("❌ Incorrect username or password.")
+              print(" Incorrect username or password.")
 
             if self._failed_attempts >= 3:
                 self._locked = True
-                print("🚨 Too many failed attempts. Account locked!")
-                print("🔒 Account will be locked for 10 seconds...")
+                print(" Too many failed attempts. Account locked!")
+                print(" Account will be locked for 10 seconds...")
                 for i in range(10, 0, -1):  #cooldown added
                     print(i)
                     time.sleep(2) # 2- second wait
